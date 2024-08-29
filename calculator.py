@@ -1,3 +1,5 @@
+
+#Main function
 def main():
     x = float(input("Enter the first number: "))
     y = float(input("Enter the second number: "))
@@ -14,7 +16,8 @@ def main():
         print(multiplication(x, y))
     else:
         print("Error")
-        
+
+#Operations        
 def addition(m, n):
     return m + n
 
