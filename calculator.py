@@ -42,6 +42,8 @@ def subtraction(m, n):
     return m - n
 
 def division(m, n):
+    if n == 0:
+        return 'Error!! Cannot divide by zero'
     return m / n
 
 def multiplication(m, n):
